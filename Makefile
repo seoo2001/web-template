@@ -7,6 +7,9 @@ down:
 restart:
 	docker compose restart
 
+stop:
+	docker compose stop
+
 rebuild:
 	docker compose down -v
 	docker compose up --build -d
